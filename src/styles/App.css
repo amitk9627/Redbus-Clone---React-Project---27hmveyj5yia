@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    padding: 20px 20px;
+}
+.input-wrapper{
+    display: flex;
+    background-color: rgb(197, 198, 199);
+    justify-content: center;
+    align-items: center;
+    padding:20px 30px;
+    flex-wrap: wrap;
+}
+.single-InputField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.arrow{
+    background-color: red;
+    border-radius:50%;
+    padding: 2px;
+    color:white;
+    margin-top: 15px;
+    margin-right: -10px;
+    font-size: 1.4rem;
+}
+.single-InputField label{
+    font-weight: 700;
+    font-size: .8rem;
+}
+.single-InputField input{
+    width: 100%;
+    padding:0 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+.input-wrapper button{
+    background-color: red;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding:0 12px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.bus-svg{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+}
