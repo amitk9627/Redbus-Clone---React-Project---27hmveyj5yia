@@ -6,14 +6,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #main{
-    padding: 20px 20px;
+    margin: 20px 70px;
 }
 .input-wrapper{
     display: flex;
     background-color: rgb(197, 198, 199);
     justify-content: center;
     align-items: center;
-    padding:20px 30px;
+    padding:20px 10px;
     flex-wrap: wrap;
 }
 .single-InputField{
